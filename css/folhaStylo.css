@@ -1,0 +1,40 @@
+#div_principal {
+    max-width: 800px; /* Aumente a largura máxima do formulário */
+    margin: 0 auto; /* Centralize o formulário na horizontal */
+    padding: 40px; /* Adicione mais preenchimento ao redor do formulário */
+    position: absolute; /* Use position absolute para centralizar na vertical */
+    top: 50%; /* Ajuste a posição vertical para 50% da altura da tela */
+    left: 50%; /* Ajuste a posição horizontal para 50% da largura da tela */
+    transform: translate(-50%, -50%); /* Use transform para centralizar precisamente */
+}
+
+/* Estilos para os campos de entrada */
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Faça os campos de entrada ocuparem toda a largura do contêiner pai */
+    padding: 10px; /* Adicione algum preenchimento para uma melhor experiência do usuário */
+    margin-bottom: 20px; /* Adicione um espaço entre os campos de entrada */
+    box-sizing: border-box; /* Inclua preenchimento e borda na largura total */
+}
+
+/* Estilos para o botão de envio */
+#inSubmit {
+    width: 100%; /* Faça o botão de envio ocupar toda a largura do contêiner pai */
+    padding: 10px; /* Adicione algum preenchimento para uma melhor experiência do usuário */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remova a borda do botão */
+    cursor: pointer; /* Mude o cursor para indicar que é clicável */
+    border-radius: 20px;
+}
+
+/* Estilos para o rótulo */
+label {
+    display: block; /* Faça o rótulo ocupar toda a largura disponível */
+    margin-bottom: 5px; /* Adicione algum espaço abaixo do rótulo */
+}
+
+form{
+    padding: 100px;
+    
+}
